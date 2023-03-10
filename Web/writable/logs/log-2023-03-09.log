@@ -1,0 +1,29 @@
+CRITICAL - 2023-03-09 12:59:22 --> Cannot use object of type App\Models\UserModel as array
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 13:00:05 --> Cannot use object of type App\Models\UserModel as array
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 13:05:07 --> Cannot use object of type App\Models\UserModel as array
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-09 13:27:18 --> Attempt to read property "password" on array
+in APPPATH\Controllers\UserController.php on line 42.
+ 1 APPPATH\Controllers\UserController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\UserController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
